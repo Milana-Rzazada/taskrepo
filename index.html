@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="./style.css">
+   
+    
+</head>
+
+<body>
+    <h1>Lutfen formu elksiksiz doldurunuz.</h1>
+    <hr>
+    <h3>Hesap bilgileriniz</h3>
+    <form action="hesap">
+        <p><label for="name">Kullanici adiniz:</label>
+        <input type="text" id="name" placeholder="Adinizi yaziniz"><br></p>
+        <p><label for="email">Eposta:</label>
+        <input type="email" name="Mail" id="email" placeholder="Eposta yaziniz"><br></p>
+        <p><label for="parol">Parola:</label>
+        <input type="password" name="parol" id="parol" placeholder="parola yaziniz"></p>
+        <hr>
+
+        <h3>Kishisel bilgileriniz</h3>
+        <form action="bilgileriniz">
+            <p><label for="name1">Adiniz:</label>
+            <input type="text" name="name" id="name1" placeholder="adinizi yaziniz"></p>
+            <p>
+                <label for="soyad">Soyadiniz:</label>
+                <input type="text" name="soyad" id="soyad" placeholder="soyadiniz">
+            </p>
+            <p>
+                <label for="shehir">Shehir:</label>
+                <select name="cars" id="cars">
+                    <option value="Baku">Baku</option>
+                    <option value="Lankaran">Lankaran</option>
+                    <option value="Astara">Astara</option>
+                    <option value="Ganja">Ganja</option>
+                  </select>
+            </p>
+            <p>
+                <span>Cinsiyyet:</span>
+                <input type="radio" id="cins" name="fav_language" value="Qadin">
+                <label for="cins">Qadin:</label>
+                <input type="radio" id="cins" name="fav_language" value="Kishi">
+                <label for="cins">Kishi:</label>
+            </p>
+            <p>
+                <span>Hobileriniz:</span>
+                <input type="checkbox" id="hobi1" name="hobi1" value="Sinema">
+  <label for="hobi1"> Sinema</label>
+  <input type="checkbox" id="hobi2" name="hobi2" value="Gezmek">
+  <label for="hobi2"> Gezmek</label>
+  <input type="checkbox" id="hobi3" name="hobi3" value="Spor">
+  <label for="hobi3">Spor</label>
+  <input type="checkbox" id="hobi4" name="hobi4" value="Kitap">
+  <label for="hobi4">Kitap</label><br>
+  <input type="submit" value="Kaydet">
+            </p>
+            
+        </form>
+
+    </form>
+   
+</body>
+</html>
